@@ -49,22 +49,22 @@ to this section's matching END comment to see page-specific styles.
 
 /* Our remix on glitch button */
 .btn--remix {
-  font-family: HK Grotesk;
-  padding: 0.75rem 1rem;
-  font-size: 1.1rem;
-  line-height: 1rem;
-  font-weight: 500;
-  height: 2.75rem;
-  align-items: center;
-  cursor: pointer;
-  background: #FFFFFF;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  border-radius: 4px;
-  text-decoration: none;
-  color: #000;
-  white-space: nowrap;
-  margin-left: auto;
+font-family: HK Grotesk;
+    padding: 0.75rem 1rem;
+    font-size: 1.1rem;
+    line-height: 1rem;
+    font-weight: 500;
+    height: 2.75rem;
+    align-items: center;
+    cursor: pointer;
+    background: #51a331;
+    border: 1px solid #51a331;
+    box-sizing: border-box;
+    border-radius: 14px;
+    text-decoration: none;
+    color: #fff;
+    white-space: nowrap;
+    margin-left: auto;
 }
 .btn--remix img {
   margin-right: 0.5rem;
@@ -81,7 +81,6 @@ to this section's matching END comment to see page-specific styles.
   padding: 1rem 0 0.75rem 0;
   width: 100%;
   flex-wrap: wrap;
-  border-top: 4px solid #fff;
 }
 
 .footer a:not(.btn--remix):link,
@@ -131,13 +130,15 @@ body {
 
 /* Very light scaling for our illustration */
 .title {
-  color: #383838;
-  font-family: HK Grotesk;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 105%;
-  margin: 0;
+color: #383838;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 105%;
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 /* Very light scaling for our illustration */
