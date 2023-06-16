@@ -37,13 +37,13 @@ to this section's matching END comment to see page-specific styles.
 /* Import fonts */
 @font-face {
   font-family: HK Grotesk;
-  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
+  src: url("https://cdn.glitch.global/1bd72729-1f70-4b9a-bb6c-6dbce9122db3/pxidypY1o9NHyXh3WvSbGSggdOeMaExuqGao.woff2?v=1686930145618")
     format("opentype");
 }
 @font-face {
   font-family: HK Grotesk;
   font-weight: bold;
-  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
+  src: url("https://cdn.glitch.global/1bd72729-1f70-4b9a-bb6c-6dbce9122db3/pxidypY1o9NHyXh3WvSbGSggdOeMaExuqGao.woff2?v=1686930145618")
     format("opentype");
 }
 
@@ -112,7 +112,7 @@ END Glitch hello-app default styles
 
 body {
   font-family: HK Grotesk;
-  background-color: var(--color-bg);
+  background-color: #f9f9f9;
 }
 
 /* Page structure */
@@ -142,7 +142,8 @@ body {
 
 /* Very light scaling for our illustration */
 .illustration {
-  max-width: 100%;
+  width: 100%;
+  max-width: 300px;
   max-height: var(--image-max-width);
   margin-top: var(--image-margin);
 }
