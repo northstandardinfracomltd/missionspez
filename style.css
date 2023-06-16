@@ -70,7 +70,8 @@ font-family: HK Grotesk;
   margin-right: 0.5rem;
 }
 .btn--remix:hover {
-  background-color: #D0FFF1;
+  background-color: #383838;
+  border: 1px solid #383838;
 }
 
 /* Navigation grid */
@@ -94,7 +95,8 @@ a:not(.btn--remix):visited {
   border-style: none;
 }
 .footer a:hover {
-  background: var(--color-primary);
+  background: #51a331;
+  border: 1px solid #51a331;
 }
 
 .footer .links {
