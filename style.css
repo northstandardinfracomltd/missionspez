@@ -143,9 +143,7 @@ body {
 /* Very light scaling for our illustration */
 .illustration {
   width: 100%;
-  max-width: 300px;
-  max-height: var(--image-max-width);
-  margin-top: var(--image-margin);
+  max-width: 600px;
 }
 
 .axelroeschsoccer {
