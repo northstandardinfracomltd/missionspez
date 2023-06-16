@@ -148,6 +148,19 @@ body {
   margin-top: var(--image-margin);
 }
 
+
+/* Very light scaling for our illustration */
+.axelroesch {
+  width: 100%;
+  max-width: 300px;
+  max-height: var(--image-max-width);
+  margin-top: var(--image-margin);
+  text-align: left;
+  margin-right: auto;
+  margin-left: -10px;
+}
+
+
 /* Instructions */
 .instructions {
   margin: 1rem auto 0;
