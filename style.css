@@ -148,6 +148,10 @@ body {
   margin-top: var(--image-margin);
 }
 
+.axelroeschsoccer {
+ max-width: 20px !important;
+}
+
 
 /* Very light scaling for our illustration */
 .axelroesch {
